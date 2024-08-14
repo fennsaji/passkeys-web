@@ -1,0 +1,14 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
