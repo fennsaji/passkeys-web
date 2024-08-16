@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My TypeScript Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="app" class="container">
+        <div>
+            <input class="input" type="text" id="username" placeholder="Enter username">
+            <button class="button" id="register" onclick="onRegister()">Register</button>
+            <button class="button" id="authenticate">Authenticate</button>
+        </div>
+        <div>
+            <input class="input" type="text" id="encrypt_text" placeholder="Enter text to encrypt">
+            <button class="button" id="encrypt">Encrypt</button>
+            <p id="encrypt_output"></p>
+            <br>
+            <input class="input" type="text" id="decrypt_text" placeholder="Enter text to decrypt">
+            <button class="button" id="decrypt">Decrypt</button>
+            <p id="decrypt_output"></p>
+        </div>
+    </div>
+    <script type="module" src="./index.ts"></script> <!-- Use type="module" -->
+</body>
+
+</html>

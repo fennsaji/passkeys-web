@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.button {
+    background-color: rgb(195, 195, 195);
+    color: rgb(46, 46, 46);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px 0;
+}
